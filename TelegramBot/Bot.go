@@ -49,7 +49,7 @@ func makeScreenShot() {
 
 func main() {
 
-	bot, err := tgbotapi.NewBotAPI("902103535:AAE72ua0d9xmaOiNSLM9VTfOe9CFvOniNEk")
+	bot, err := tgbotapi.NewBotAPI("902103535")
 	if err != nil {
 		log.Panic(err)
 	}
